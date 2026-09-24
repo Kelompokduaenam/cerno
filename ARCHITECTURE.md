@@ -5,7 +5,7 @@
 | Proyek | CERNO — *Bedakan sebelum percaya* |
 | Jenis | Rancangan arsitektur aplikasi dan catatan keputusan |
 | Status | Dokumen kerja; belum seluruh keputusan disahkan |
-| Versi | 0.13 |
+| Versi | 0.14 |
 | Tanggal pembaruan | 25 September 2026 |
 
 > Dokumen ini menjadi sumber konteks arsitektur selama diskusi dan implementasi. Pernyataan berstatus **ditetapkan** berasal dari ruang lingkup produk atau ketentuan proyek yang sudah tercatat. **Usulan** adalah arah rancangan yang masih dapat berubah. **Terbuka** berarti membutuhkan keputusan atau pembuktian. Teknologi yang disebut dalam usulan belum berarti sudah diimplementasikan.
@@ -14,7 +14,7 @@
 
 CERNO adalah aplikasi web pendukung keputusan untuk menilai risiko pesan, URL, dan screenshot percakapan mencurigakan berbahasa Indonesia. Keluaran analisis berupa tingkat risiko, skor, bukti yang dapat dijelaskan, keterbatasan pemeriksaan, dan rekomendasi tindakan. Analisis dasar dapat dipakai tanpa akun; akun diperlukan untuk riwayat pribadi. Laporan anonim dimoderasi sebelum menjadi sinyal komunitas.
 
-**Bentuk arsitektur yang dipilih:** *modular monolith* berlapis, dengan komunikasi langsung antarmodul untuk alur biasa dan antrean serta worker untuk OCR. Satu database relasional dipakai bersama, tetapi tiap modul memiliki tanggung jawab atas tabelnya. Pilihan framework, provider, dan layanan Azure masih terbuka.
+**Bentuk arsitektur yang dipilih:** *modular monolith* berlapis, dengan komunikasi langsung antarmodul untuk alur biasa dan antrean serta worker untuk OCR. Satu database PostgreSQL dipakai bersama, tetapi tiap modul memiliki tanggung jawab atas tabelnya. Web memakai Next.js dan backend memakai Python/FastAPI. Paket layanan Azure telah dipilih sebagai rancangan, sedangkan ketersediaan layanan/kuota dan pilihan provider eksternal final masih perlu diverifikasi.
 
 ## 1. Kebutuhan dan batasan
 
@@ -104,7 +104,7 @@ flowchart LR
     Modules --> Ext[Adapter model dan provider eksternal]
 ```
 
-Diagram ini menunjukkan bentuk logis. Jumlah proses/container, produk antrean, dan layanan hosting belum dipilih.
+Diagram ini menunjukkan bentuk logis. Pilihan layanan Azure tercantum pada Bagian 5; jumlah proses/container dan konfigurasi deployment masih perlu divalidasi terhadap akun departemen.
 
 ## 3. Komponen dan alur utama
 
@@ -129,7 +129,7 @@ Modul berkomunikasi melalui fungsi/antarmuka yang dinyatakan jelas. Pemanggilan 
 3. **Riwayat:** hasil → persetujuan penyimpanan → data teredaksi → akses/penghapusan oleh pemilik.
 4. **Laporan:** kirim anonim → redaksi dan deduplikasi → moderasi → sinyal komunitas yang dibatasi bobotnya.
 
-Diagram konteks, komponen, urutan alur utama, dan deployment akan ditambahkan setelah batas komponen dibahas. Diagram ERD yang sudah ada menggambarkan rancangan data logis, bukan bukti bahwa database telah dibangun.
+Diagram logis tingkat tinggi tersedia pada Bagian 2. Diagram urutan dan deployment terperinci hanya perlu dibuat jika diminta dalam artefak tugas atau saat implementasi membutuhkan rincian tersebut. Diagram ERD yang sudah ada menggambarkan rancangan data logis, bukan bukti bahwa database telah dibangun.
 
 ### 3.3 Kontrak antarmodul tingkat arsitektur
 
