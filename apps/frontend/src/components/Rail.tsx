@@ -7,8 +7,8 @@ const modeItems: { mode: InputMode; icon: string; short: string; label: string }
   { mode: "screenshot", icon: "image", short: "", label: "Screenshot" },
 ];
 
-export default function Rail({ mode, setMode, openSheet, dark, setDark }: {
-  mode: InputMode; setMode: (m: InputMode) => void; openSheet: (s: SheetName) => void; dark: boolean; setDark: (v: boolean) => void;
+export default function Rail({ mode, setMode, openSheet, dark, onToggleTheme }: {
+  mode: InputMode; setMode: (m: InputMode) => void; openSheet: (s: SheetName) => void; dark: boolean; onToggleTheme: (button: HTMLButtonElement) => void;
 }) {
   const actions = [
     { icon: "flag", label: "Lapor anonim", sheet: "report" as SheetName },
@@ -16,7 +16,8 @@ export default function Rail({ mode, setMode, openSheet, dark, setDark }: {
     { icon: "shield", label: "Admin", sheet: "admin" as SheetName },
   ];
   return (
-    <nav className="rail" aria-label="Pilih jenis pemeriksaan dan menu">
+    <nav className="rail" data-mode={mode} aria-label="Pilih jenis pemeriksaan dan menu">
+      <span className="rail-selection" aria-hidden="true"><span key={mode} className="rail-selection-core" /></span>
       {modeItems.map((item) => (
         <button key={item.mode} className={mode === item.mode ? "active" : ""} onClick={() => setMode(item.mode)} aria-label={item.label} aria-pressed={mode === item.mode} data-tip={item.label}>
           {item.short || <Icon name={item.icon} />}
@@ -26,7 +27,7 @@ export default function Rail({ mode, setMode, openSheet, dark, setDark }: {
       {actions.map((item) => (
         <button key={item.label} onClick={() => openSheet(item.sheet)} aria-label={item.label} data-tip={item.label}><Icon name={item.icon} /></button>
       ))}
-      <button onClick={() => setDark(!dark)} aria-label={dark ? "Gunakan mode terang" : "Gunakan mode gelap"} data-tip={dark ? "Mode terang" : "Mode gelap"}><Icon name="moon" /></button>
+      <button onClick={(event) => onToggleTheme(event.currentTarget)} aria-label={dark ? "Gunakan mode terang" : "Gunakan mode gelap"} data-tip={dark ? "Mode terang" : "Mode gelap"}><Icon name={dark ? "sun" : "moon"} /></button>
     </nav>
   );
 }
