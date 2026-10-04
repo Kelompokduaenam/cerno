@@ -1,0 +1,283 @@
+
+--- PAGE 1 ---
+MODUL  1 : PEMBENTUKAN KELOMPOK & PERUMUSAN 
+MASALAH  
+Waktu : 120 menit 
+Penjelasan Proyek 
+Selama satu semester, setiap kelompok akan merancang solusi untuk sebuah permasalahan yang telah 
+dipilih yang akan dipresentasikan pada akhir semester dalam bentuk produk digital yang harus 
+dikembangkan dengan mengimplementasikan ketiga teknologi berikut: jaringan komputer, komputasi 
+awan, dan kecerdasan buatan. 
+Jaringan Komputer  adalah berbagai perangkat komputasi yang saling terhubung sehingga dapat 
+bertukar data dan sumber daya antara satu dengan yang lainnya. Perangkat yang saling terhubung ini 
+memiliki berbagai aturan untuk berkomunikasi dan mentransmisikan informasi, atau ju ga disebut 
+protokol komunikasi.  IP address atau Logical Address adalah alamat yang digunakan untuk 
+mengidentifikasi setiap perangkat pada world-wide-web.  
+Komputasi Awan  adalah penyediaan berbagai layanan komputasi melalui internet, layanan yang 
+tersedia diantaranya adalah penyimpanan data, server, basis data, networking, dan perangkat lunak. 
+Pada komputasi awan, Informasi disimpan secara remote pada awan atau ruang virtual. Perusahaan 
+yang menyediakan layanan awan akan memungkinkan penggunanya untuk menyimpan data dan 
+aplikasi pada server remote yang dapat diakses dengan internet.  Apapun yang tersimpan pada awan 
+akan dapat diakses kapanpun dan dimanapun, selama terdapat koneksi internet yang memadai. Jenis 
+layanan dari komputer awan diantaranya adalah SaaS (Software-as-a-Service), IaaS (Infrastructure-as-a-
+Service), dan PaaS (Platform-as-a-Service). Komputasi awan tumbuh sebagai opsi yang populer karena 
+berbagai alasan, seperti penghematan biaya, peningkatan produktivitas, kecepatan dan efisiensi, 
+performa, dan keamanan. 
+Kecerdasan Buatan atau artificial intelligence adalah cabang ilmu komputer yang bertujuan membangun 
+sistem yang dapat melakukan tugas yang umumnya membutuhkan ‘kecerdasan’.  Kemampuan ini 
+difasilitasi menerapkan beberapa aturan tertentu atau dengan menggunakan teknologi seperti machine 
+learning dan deep learning. Contoh dari implementasi kecerdasan buatan adalah mesin yang dapat 
+memainkan catur atau aplikasi yang dapat membedakan antara foto perempuan dan laki -laki. Setiap 
+kelompok memiliki kebebasan untuk menentukan model kecerdasan buatan yang paling sesuai sebagai 
+solusi untuk permasalahan yang telah dirumuskan. 
+Produk akhir dari setiap kelompok akan di deploy pada akun Azure milik departemen  untuk showcase 
+hasil produk digital yang dikembangkan oleh mahasiswa DTETI. 
+Lingkup Permasalahan 
+Setiap kelompok memiliki kebebasan untuk memilih permasalahan yang akan dibahas.  Permasalahan 
+yang dibahas harus bersifat nyata dibuktikan dengan data dan statistik pendukung terkait . Pemilihan 
+dari permasalahan disarankan memperhatikan aspek seperti urgensi dari permasalahan dan terdapat 
+solusi dengan peluang penyelesaian yang dapat dikerjakan dalam kurun waktu satu semester. 
+
+--- PAGE 2 ---
+Modul Praktikum Senior Project TI 
+2 
+ 
+Kelompok 
+Setiap kelompok akan terdiri atas 3-5 mahasiswa, dengan anggota dalam kelompok dapat memilih 
+setidaknya salah satu dari peran yang umum terdapat dalam pengembangan sebuah produk digital. 
+Peran yang dapat dipilih oleh setiap mahasiswa: 
+• Project Manager (PM) 
+Berperan dalam manajemen pengembangan produk sehingga prosesnya berjalan lancar, efisien 
+dan memenuhi target. PM juga berperan dalam pembentukan rencana pengerjaan proyek dan 
+monitoring perkembangan proyek. 
+• UIUX Designer (UXD) 
+Berperan untuk merancang desain antarmuka dan pengalaman pengguna dari produk yang 
+akan dihasilkan. 
+• Software Engineer (SE) 
+Berperan dalam pengembangan produk digital baik berbasis web maupun mobile. SE 
+mengimplementasikan engineering principle dan berbagai bahasa pemrograman untuk 
+membangun produk digital. 
+• AI Engineer (AIE) 
+Menentukan dan mengembangkan berbagai algoritma untuk mengimplementasikan teknologi 
+kecerdasan buatan yang akan digunakan sebagai solusi dalam produk akhir. AI engineer juga 
+harus memastikan ketersediaan dan kelayakan data yang diperlukan sebagai input dari model 
+yang akan dikembangkan. 
+• Cloud Engineer (CE) 
+Berperan dalam merancang, mengimplementasi dan mengelola teknologi awan yang sesuai 
+untuk digunakan pada solusi produk yang akan dikembangkan. 
+Kriteria Penilaian 
+Produk akhir yang dikembangkan selama satu semester berlangsungnya praktikum senior project TI 
+baik di dalam maupun di luar jam praktikum dengan menerapkan konsep yang dipelajari pada 
+pertemuan-pertemuan berikutnya. Pada akhir praktikum, produk akhir akan dipresentasikan dan 
+penilaian akhir akan dinilai berdasarkan kriteria penilaian berikut: 
+Kriteria Penilaian Proses (50%) 
+1. Penerapan engineering design pada pelaksanaan praktikum (5%) 
+2. Kesesuaian Luaran dengan capaian yang diharapkan (5%) 
+3. Proses pengembangan produk terdokumentasi dengan baik (20%) 
+a. Dokumentasi pengembangan dengan menggunakan Git 
+b. Dokumentasi singkat penjelasan/penggunaan produk 
+c. Keterangan atau panduan untuk melakukan demo produk 
+4. Kuis dan pemahaman (20%) 
+Kriteria Penilaian Produk Akhir (50%) 
+1. Rumusan permasalahan dan solusi yang dikembangkan (10%) 
+2. Produk mengimplementasikan jaringan komputer (20%) 
+3. Produk mengimplementasikan komputasi awan (20%) 
+
+--- PAGE 3 ---
+Modul Praktikum Senior Project TI 
+3 
+ 
+4. Produk mengimplementasikan kecerdasan buatan (20%) 
+5. Demo produk berjalan dengan lancar (5%) 
+Lean Startup 
+Lean Startup adalah suatu metodologi yang bertujuan untuk membantu para pengusaha dalam 
+membangun bisnis mereka dengan lebih efisien dan efektif. Metode ini didasarkan pada prinsip-prinsip 
+pengujian yang cepat dan terus menerus terhadap produk atau layanan yang sedang dikembangkan, 
+sehingga bisnis dapat menyesuaikan diri dengan cepat dengan kebutuhan pasar. 
+Pendekatan Lean Startup mengedepankan penggunaan minimum viable product (MVP) atau produk 
+minimum yang fungsional, yang dirancang untuk memenuhi kebutuhan pengguna dengan sedikit fitur 
+yang dibutuhkan. Dalam pengembangan MVP, pendekatan ini mendorong para pengusaha untuk 
+mengumpulkan umpan balik dari pelanggan dengan cepat dan terus menerus, sehingga mereka dapat 
+memperbaiki dan mengembangkan produk dengan lebih akurat. Selain itu, Lean Startup  juga 
+menekankan pentingnya pengujian hipotesis dan validasi eksperimen secara terus menerus. Dalam 
+metode ini, para pengusaha diajarkan untuk berpikir lebih eksperimental dan terus menerus menguji 
+asumsi-asumsi bisnis mereka, sehingga mereka dapat mengide ntifikasi kekuatan dan kelemahan dari 
+bisnis mereka sejak awal. 
+Dengan menggunakan Lean Startup, para pengusaha dapat mempercepat laju pengembangan produk 
+mereka, meminimalkan risiko, dan memaksimalkan kesempatan keberhasilan bisnis mereka. 
+Metodologi ini sangat cocok untuk para pengusaha Indonesia yang ingin membangun bisnis yang 
+efektif, efisien, dan berkelanjutan di tengah persaingan yang semakin ketat. 
+Lean Canvas 
+Lean canvas merupakan sebuah dokumen yang digunakan untuk membantu bisnis dan startup untuk 
+mengkomunikasikan dan memvisualisasikan ide dan proses bisnis mereka. Lean Canvas menawarkan 
+sebuah kerangka kerja yang sederhana dan mudah dipahami guna membantu para pemilik bisnis untuk 
+fokus pada hal-hal krusial dalam bisnis mereka. Dokumen Lean Canvas terdiri dari blok-blok yang sekilas 
+terlihat sama seperti business model canvas , akan tetapi isi bloknya telah diadaptasi dan disesuaikan 
+dengan Lean Startup. Dengan Lean Canvas, para pemilik bisnis dapat menyusun ide dan proses bisnis 
+secara sistematis sehingga tujuan bisnis dapat dicapai dengan lebih efisien dan proses evaluasi dapat 
+dilakukan dengan lebih terukur. Gambar 1 di bawah merupakan gambaran dari lembar Lean Canvas. 
+
+--- PAGE 4 ---
+Modul Praktikum Senior Project TI 
+4 
+ 
+ 
+GAMBAR 1 Lembar Lean Canvas dari Running Lean - succinctstories.wordpress.com 
+Lembar Lean Canvas terdiri dari sembilan blok, yaitu: 
+1. Problem 
+Pada bagian ini, anda perlu mengidentifikasikan tiga masalah utama dari customer segments 
+anda yang ingin anda selesaikan dengan produk anda. 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Masalah apa yang ingin dipecahkan oleh produk atau layanan Anda? 
+- Seberapa umum masalah ini terjadi, berapa banyak orang yang mengalaminya? 
+- Apakah masalah tersebut dapat anda selesaikan? (perhatikan sumber daya yang anda 
+miliki) 
+- Berapa besar biaya yang customer anda rela keluarkan  untuk memperbaiki masalah 
+tersebut? 
+2. Solution 
+Pada bagian ini, berikan solusi apa yang anda tawarkan untuk menyelesaikan maslaah yang 
+telah anda identifikasi. Apabila anda kesulitan dalam merumuskan solusi anda, coba cari tahu 
+dengan cara menanyakannya kepada customer segments yang anda bidik. 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Apakah solusi yang anda tawarkan merupakan sesuatu krusial dan harus dimiliki? 
+- Apabila solusi anda ditarik kembali apakah customer anda akan peduli? 
+
+
+--- PAGE 5 ---
+Modul Praktikum Senior Project TI 
+5 
+ 
+- Apa tiga fitur teratas yang dimiliki produk atau layanan Anda yang berfungsi untuk 
+memecahkan masalah yang telah anda identifikasi? 
+- Jelaskan apa yang membuat produk anda inovatif dan kreatif dalam bidang atau industri 
+Anda? 
+3. Key Metrics 
+Indikator apa yang dapat Anda gunakan untuk menentukan apakah produk atau layanan Anda 
+berfungsi dengan benar dan bisnis Anda berhasil? Metrik utama Anda dapat berupa campuran 
+statistik product engagement, pendapatan, dan skor kepuasan pelanggan.  Contoh key metrics 
+yang dapat digunakan: MAU ( monthly Active User), DAU(Daily Active User) , CPA( Cost per 
+acquisition), retention Rate, Churn rate , Daily Session per DAU , LTV(Customer Lifetime Value), 
+ROI (Return on Investment), dsb. 
+4. Unique Value Propositions 
+Berisi unique benefits apa saja yang produk anda tawarkan kepada customer anda yang dapat 
+membantu customer anda untuk memecahkan masalah atau memenuhi kebutuhan mereka.  
+Bagian ini berfokus kepada hal apa yang bisnis anda tawarkan kepada customer anda. 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Apa yang Anda miliki tetapi pesaing Anda tidak?  
+- Ada berapa banyak pesaing di industri tersebut, dan apa yang dapat Anda lakukan untuk 
+memisahkan atau menonjolkan bisnis Anda dari bisnis mereka? 
+5. Unfair Advantage 
+Bagian ini berbicara mengenai keunggulan dari produk anda yang tidak dimiliki oleh 
+kompetitor, fokus dari bagian ini ialah bisnis anda vs. bisnis kompetitor. 
+“The only real competitive advantage is that which cannot be copied and cannot be bought.” — 
+Jason Cohen. 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Bagaimana Anda bisa memastikan orang tidak akan menyalin produk Anda?  
+- Langkah apa yang Anda ambil untuk mempertahankan keunggulan kompetitif? 
+6. Channels 
+Channels merupakan cara yang akan anda tempuh agar bisnis anda dapat menjangkau 
+Customer Segments yang telah anda identifikasikan. Channels dapat berupa email, media sosial, 
+iklan, blog, artikel, pameran, radio, TV, web, dsb. Pilihlah channels yang memang digunakan 
+oleh customer segments anda, tidak perlu semuanya. Ketahui di mana audiens Anda berada, 
+dan bagaimana cara menjangkau mereka. 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Jalur apa yang perlu Anda ambil untuk menjangkau pelanggan?  
+7. Customer Segments 
+Bagian ini berisi segmen customer seperti apa yang produk anda akan sasar. Blok Problem dan 
+Customer Segment saling terhubung satu sama lain, tanpa adanya customer segments anda tidak 
+dapat merumuskan masalah dan sebaliknya. Anda harus mengidentifikasi persona spesifik di 
+antara basis pelanggan potensial Anda, bagaimana mereka memandang masalah yang Anda 
+selesaikan, dan nilai unik yang dapat Anda tawarkan 
+Beberapa pertanyaan yang dapat direnungkan: 
+- Siapa prospek Anda, dan bagaimana mereka berhubungan dengan masalah? 
+8. Cost Structure 
+
+--- PAGE 6 ---
+Modul Praktikum Senior Project TI 
+6 
+ 
+Bagian ini berisi anggaran apa saja yang bisnis anda perlukan agar tetap berada dalam market. 
+Biaya yang dimaksud mencakup pengeluaran riset, gaji pegawai, pembelian inventaris, dsb. 
+9. Revenue Streams 
+Bagaimana anda memberikan harga terhadap produk yang anda tawarkan bergantung 
+terhadap tipe model bisnis anda. Identifikasikan bagaimana cara bisnis anda untuk 
+mendapatkan pemasukan dari produk yang telah anda buat.  Contohnya apabila produk anda 
+memerlukan user untuk membayar agar dapat memiliki produk anda maka revenue stream anda 
+ialah user purchase. Apabila itu biaya berlangganan maka revenue stream anda ialah subscription 
+fees. Dan masih banyak lagi revenue streams lain yang dapat anda eksplor. 
+Contoh Dokumen Lean Canvas 
+1. Google 
+Google merupakan perusahaan yang didirikan oleh Larry Page dan Sergey Brin pada tahun 1998 
+yang berawal dari sebuah mesin pencarian web  dan sekarang berkembang hingga menjadi 
+perushaan multinasional yang bergerak di bidang online advertising, komputasi awan, produk 
+software dan hardware , serta masih banyak lagi. Google muncul atas gagasan dari kedua 
+pendirinya yang melihat bahwa Yahoo dan Excite  memiliki kekurangan, sehingga keduanya 
+memiliki ide untuk membuat mesin pencari yang lebih handal, komprehensif, dan cepat. Sudah 
+lebih dari 20 tahun sejak Page dan Brin mendirikan Google, a pabila keduanya membuat Lean 
+Canvas dari Google maka Lean Canvas yang dibuat akan seperti pada Gambar 2 di bawah. 
+ 
+GAMBAR 2 Dokumen Lean Canvas dari Google (sumber: 5 Examples of Lean Canvas - railsware.com) 
+2. Airbnb 
+Airbnb yang merupakan kependekan dari AirBed&Breakfast merupakan perusahaan yang 
+didirikan oleh Brian Chesky, Joe Gebbia, Nathan Blecharczyk pada tahun 2008. Airbnb awalnya 
+dibuat karena desakan situasi dan kondisi yang dihadapi oleh Brian Chesky dan Joe Gebbia. 
+Mereka melihat adanya peluang dimana akomodasi penginapan saat itu sedang penuh karena 
+diadakannya konferensi di kota mereka, sehingga mereka membuat sebuah website yang 
+menawarkan akomodasi berupa penginapan dan sarapan . Mereka berhasil mendapatkan tiga 
+tamu yang kemudian mereka berikan akomodasi penginapan dan sarapan degan harga $80 per 
+
+
+--- PAGE 7 ---
+Modul Praktikum Senior Project TI 
+7 
+ 
+malam. Sudah lebih dari 1 tauhn sejak Airbnb berdiri, apabila AirBed&Breakfast ditranslasikan 
+ke dalam dokumen Lean Canvas hasilnya seperti yang tertera pada Gambar 3 di bawah. 
+ 
+ 
+GAMBAR 3 Lembar Lean Canvas dari Airbnb (source: 5 Lean Canvas Example - railsware.com) 
+LAB 1.1: PEMBAGIAN KELOMPOK  
+Pada Lab 1.1 ini silahkan mendiskusikan hal berikut dalam kelompok dengan waktu 15 menit.  
+1. Pilih nama kelompok  
+2. Menentukan ketua kelompok (BOLD nama ketua) 
+3. Menentukan peran dari setiap anggota dalam kelompok 
+LAB 1.2: PERUMUSAN PERMASALAHAN  
+Pada Lab 1.2 setiap kelompok menentukan permasalahan yang akan diangkat  dan merumuskan solusi 
+yang dikemas dalam bentuk Aplikasi Web : 
+1. Merumuskan permasalahan yang akan dibahas beserta alasan dan data pendukungnya 
+2. Menentukan ide dasar produk yang menawarkan solusi atas permasalahan yang dipilih 
+3. Menentukan rancangan produk yang akan dikembangkan 
+4. Mengumpulkan sumber literatur dan referensi untuk pengembangan aplikasi 
+5. Mengumpulkan dokumen satu lembar yang berisi 
+a. Nama kelompok 
+b. Nama dan jenis produk 
+Jenis produk dapat berupa aplikasi web, mobile, maupun desktop, disertai dengan 
+alasan pemilihannya. 
+c. Permasalahan yang dipecahkan 
+Menjelaskan latar belakang permasalahan yang diangkat dengan menyertai data  atau 
+statistik pendukung. 
+d. Ide solusi yang diusulkan beserta rancangan fitur 
+
+
+--- PAGE 8 ---
+Modul Praktikum Senior Project TI 
+8 
+ 
+Menjelaskan mengenai solusi yang akan dikembangkan untuk menyelesaikan 
+permasalahan, solusi yang ditawarkan perlu memperhatikan aspek feasibility terkait 
+kemampuan kelompok dan waktu pengembangan yang hanya 1 semester. Setiap tim 
+boleh mengusulkan hanya satu maupun beberapa ide solusi yang mungkin dapat 
+diimplementasikan untuk permasalahan yang diangkat. 
+e. Analisis Kompetitor  
+Setiap tim perlu menyertakan analisis kompetitor untuk produk yang menawarkan 
+solusi serupa. Analisis kompetitor perlu menyertakan nama produk, keunggulan dan 
+kelemahan setiap produk. Apabila tidak menemukan kompetitor langsung, dapat 
+menganalisis kompetitor tidak langsung yang berada pada ranah permasalahan serupa. 
+6. Kumpulkan dalam assignment Pertemuan 1 
+LAB 1.3: LEAN CANVAS  
+Dengan tools yang tersedia di internet (contoh: miro, canvanizer, figma, dsb) , setiap kelompok 
+berdiskusi untuk menyusun ide dari produk secara sistematis. 
+1. Lakukan Brainstorming  
+2. Buatlah Lean Canvas dari produk yang akan dikembangkan. 
+3. Kumpulkan dalam bentuk .pdf dan disertakan dengan dokumen Worksheet Kelompok pada 
+assignment Pertemuan 1.  

@@ -1,0 +1,280 @@
+
+--- PAGE 1 ---
+Laboratorium Jaringan Komputer dan Aplikasi Terdistribusi 
+Senior Project (Jaringan Komputer, Komputasi Awan, dan AI) 
+Worksheet Pertemuan 1 (Kelompok) 
+ 
+Modul 1 – Pembentukan Kelompok & Perumusan Masalah 
+LAB 1.1: PEMBENTUKAN KELOMPOK  
+Diskusikan dengan anggota dalam satu tim untuk menentukan peran dari setiap anggota, 
+pembagian peran harus seimbang dengan mempertimbangkan kemampuan anggota. 
+Nama NIM Peran 
+Galang Swastika Ramadhan 24/538251/TK/59692 Project Manager, Software 
+Engineer 
+Nabila Putri Barokah 24/541890/TK/60132 UIUX Designer, Software 
+Engineer 
+Farand Hafiz 24/540618/TK/60027 AI Engineer, Cloud Engineer 
+ 
+ 
+LAB 1.2: PERUMUSAN PERMASALAHAN  
+a. Nama Kelompok 
+Lab 1.2: PERUMUSAN PERMASALAHAN 
+ 
+ 
+b. Nama Produk 
+Nama Produk: 
+Cerno 
+ 
+ 
+c. Permasalahan yang dipecahkan 
+Latar Belakang: 
+
+--- PAGE 2 ---
+Penipuan digital di Indonesia terus meningkat tajam. Berdasarkan data Indonesia Anti -
+Scam Centre (IASC) OJK, sejak November 2024 hingga pertengahan 2026 tercatat lebih dari 
+608.000 laporan penipuan dengan total kerugian yang dilaporkan mencapai Rp9,1 trili un. 
+Survei OJK 2026 bahkan menemukan bahwa satu dari empat konsumen Indonesia pernah 
+mengalami kerugian akibat penipuan digital. 
+Sebagian besar modus penipuan (89%) disampaikan melalui WhatsApp, dengan pola yang 
+makin canggih seperti impersonation (berpura -pura menjadi bank/kurir/instansi resmi), 
+urgency (tekanan waktu), ancaman pemblokiran akun, hingga permintaan kode OTP/PIN. 
+Pengguna harus mengambil keputusan dalam waktu singkat tanpa alat bantu yang dapat 
+menjelaskan mengapa sebuah pesan berisiko, sehingga banyak yang tetap menjadi korban 
+meski sudah berusaha berhati-hati. 
+Layanan resmi yang ada saat ini  (IASC OJK, CekRekening.id, Google Safe Browsing) 
+umumnya bersifat reaktif , menangani laporan setelah insiden terjadi atau hanya 
+memeriksa reputasi URL/rekening yang sudah diketahui, tanpa memahami konteks 
+keseluruhan pesan yang diterima pengguna. 
+ 
+Rumusan Permasalahan: 
+Bagaimana merancang aplikasi web berbasis AI yang dapat membantu pengguna menilai 
+risiko pesan, tautan, dan screenshot percakapan mencurigakan dengan menggabungkan 
+analisis teks, analisis URL, threat intelligence, dan sinyal laporan komunitas, serta 
+menjelaskan indikator yang mendasari hasil tersebut? 
+ 
+Daftar Pustaka: 
+Otoritas Jasa Keuangan. (2026). Waspada, Penipuan (Scam) Mengintai Kita: Ayo Lawan dan 
+Hindari!  
+Kementerian Komunikasi dan Digital Republik Indonesia. (2026). Angka Kerugian Scam di 
+Indonesia Capai Rp7,5 Triliun, Wamen Nezar Dorong Pelindungan Konsumen Digital. 
+Kementerian Komunikasi dan Digital Republik Indonesia. (2026). Sistem Anti Spam-Scam, 
+Cegah Potensi Kerugian Rp8 Triliun. 
+Kementerian Komunikasi dan Digital Republik Indonesia. (2026). CekRekening.id: Kanal 
+Layanan Pencegahan Tindak Pidana. 
+
+--- PAGE 3 ---
+Wilie, B., Vincentio, K., Winata, G. I., Cahyawijaya, S., Li, X., Lim, Z. Y., Soleman, S., 
+Mahendra, R., Fung, P., Bahar, S., dan Purwarianti, A. (2020). IndoNLU: Benchmark and 
+Resources for Evaluating Indonesian Natural Language Understanding. 
+Google. (2026). Google Safe Browsing: Overview and API Reference. 
+Microsoft. (2026). Overview of Azure App Service. 
+Microsoft. (2026). Online Endpoints for Real-Time Inference in Azure Machine Learning. 
+Bitdefender. (2026). Scamio: AI-Powered Scam Detector. 
+Government of Singapore. (2026). ScamShield: Scam Checking and Community Reporting 
+Services. 
+ 
+ 
+d. Ide solusi yang diusulkan beserta rancangan fitur 
+Solusi: 
+CERNO adalah aplikasi web berbasis AI yang membantu pengguna menilai tingkat risiko 
+pesan, URL, dan screenshot percakapan mencurigakan berbahasa Indonesia. CERNO 
+menggabungkan text risk classification, rule -based evidence extraction, URL analysis, 
+threat intelligence, OCR, dan laporan komunitas anonim untuk menghasilkan risk score 
+yang dapat dijelaskan (explainable) serta rekomendasi tindakan sebelum pengguna 
+melakukan transaksi atau membagikan informasi sensitif. CERNO menggabungkan tiga 
+teknologi utama: kecerdasan buatan (klasifikasi risiko & analisis URL), jaringan komputer 
+(REST API, threat-intelligence lookup, message queue), dan komputasi awan (deployment, 
+model inference, database, object storage di Azure). 
+ 
+Rancangan Fitur Solusi: 
+Fitur Keterangan 
+Text Scam Analyzer Menganalisis teks pesan (chat/SMS/email) dan memberi indikasi 
+pola manipulatif (urgency, impersonation, credential theft, dll). 
+Automatic URL 
+Extraction 
+Mengekstrak otomatis tautan yang terdapat dalam teks yang 
+dianalisis. 
+URL Risk Analyzer Memeriksa reputasi dan karakteristik URL (domain, redirect, 
+kemiripan dengan situs resmi). 
+Explainable Risk 
+Score 
+Menampilkan skor risiko beserta indikator/bukti yang 
+mendasarinya, bukan sekadar vonis aman/scam. 
+
+--- PAGE 4 ---
+Recommended 
+Actions 
+Memberi rekomendasi tindakan (abaikan, verifikasi, atau laporkan) 
+dan kanal pelaporan resmi. 
+Analysis History Menyimpan riwayat analisis yang pernah dilakukan pengguna. 
+User Feedback Pengguna dapat memberi masukan atas akurasi hasil analisis untuk 
+perbaikan model. 
+Admin Dashboard Dashboard untuk memantau laporan, moderasi, dan statistik 
+penggunaan sistem. 
+Screenshot OCR Mengekstrak teks dari screenshot percakapan sebelum dianalisis. 
+Anonymous 
+Community Report 
+/ Crowdsourcing 
+Pengguna dapat melaporkan teks/URL mencurigakan secara anonim 
+untuk memperkaya sinyal komunitas. 
+ 
+e. Analisis Kompetitor (Minimal 3 Kompetitor) 
+ 
+KOMPETITOR 1 
+Nama Bitdefender Scamio 
+Jenis Kompetitor Direct Competitors 
+Jenis Produk Chatbot dan aplikasi web pendeteksi scam berbasis kecerdasan 
+buatan. 
+Target Customer 
+Pengguna internet umum yang menerima pesan, surel, iklan, tautan, 
+screenshot, atau QR code mencurigakan melalui WhatsApp, 
+Messenger, Discord, media sosial, dan web. 
+Kelebihan Kekurangan 
+- Dapat menerima berbagai bentuk input, 
+termasuk teks, tautan, gambar, dan QR 
+code 
+- Tersedia melalui web app, WhatsApp, 
+Messenger, dan Discord. 
+- Didukung oleh database ancaman dan 
+pengalaman keamanan siber 
+Bitdefender. 
+- Pengguna perlu masuk atau 
+membuat akun Bitdefender sebelum 
+menggunakan layanan. 
+- Produk masih disebut berada dalam 
+fase early access. 
+- Ditujukan untuk pengguna global 
+sehingga tidak secara khusus 
+menonjolkan adaptasi terhadap 
+Bahasa Indonesia, singkatan lokal, 
+nama institusi Indonesia, bank lokal, 
+
+--- PAGE 5 ---
+- Memberikan hasil pemeriksaan dan 
+saran keamanan secara cepat. 
+- Pengguna dapat memberikan rating 
+atau feedback terhadap hasil analisis. 
+e-wallet lokal, atau pola komunikasi 
+masyarakat Indonesia. 
+- Format chatbot dapat memberikan 
+pengalaman yang sederhana, tetapi 
+halaman publiknya tidak 
+menonjolkan penyajian risk score 
+terstruktur, evidence severity, 
+maupun dashboard komunitas 
+khusus Indonesia. 
+Key Competitive Advantage & Unique Value 
+Keunggulan utama Scamio adalah dukungan merek Bitdefender, database threat 
+detection yang luas, serta akses melalui berbagai platform percakapan. Pengguna dapat 
+memeriksa pesan pada kanal yang sudah biasa mereka gunakan tanpa harus selalu 
+berpindah ke aplikasi terpisah. 
+ 
+KOMPETITOR 2 
+Nama ScamShield Singapore 
+Jenis Kompetitor Direct Competitors 
+Jenis Produk 
+Aplikasi mobile, portal informasi anti -scam, layanan pemeriksaan, 
+pelaporan komunitas, pemblokiran panggilan, penyaringan SMS, 
+dan helpline pemerintah. 
+Target Customer Masyarakat Singapura yang menerima nomor telepon, pesan, 
+panggilan, atau tautan mencurigakan. 
+Kelebihan Kekurangan 
+- Didukung secara resmi oleh Pemerintah 
+Singapura. 
+- Dapat digunakan untuk memeriksa 
+nomor telepon, pesan, dan tautan 
+sebelum pengguna bertindak. 
+- Menyediakan helpline 24 jam untuk 
+membantu masyarakat melakukan 
+pemeriksaan. 
+- Database, helpline, proses pelaporan, 
+dan integrasi otoritasnya berorientasi 
+pada ekosistem Singapura. 
+- Beberapa fungsi perlindungan 
+bergantung pada aplikasi mobile dan 
+sistem telekomunikasi setempat. 
+- Tidak dirancang secara khusus untuk 
+Bahasa Indonesia, institusi Indonesia, 
+
+--- PAGE 6 ---
+- Pengguna dapat mengirimkan laporan 
+pesan, panggilan, situs web, dan surel 
+mencurigakan. 
+- Laporan komunitas diteruskan untuk 
+ditinjau dan dapat digunakan untuk 
+memperbarui blocklist serta melatih 
+classifier. 
+- Menyediakan call blocking dan SMS 
+filtering untuk mengurangi paparan 
+pengguna terhadap scam. 
+rekening atau e-wallet lokal, dan pola 
+scam yang berkembang di Indonesia. 
+- Sulit direplikasi sepenuhnya oleh 
+proyek mahasiswa karena memiliki 
+integrasi langsung dengan 
+pemerintah, kepolisian, dan operator 
+telekomunikasi. 
+Key Competitive Advantage & Unique Value 
+Keunggulan utama ScamShield adalah integrasi dengan pemerintah dan otoritas 
+Singapura. Laporan masyarakat tidak hanya menghasilkan informasi bagi pengguna, tetapi 
+juga dapat ditinjau oleh otoritas, dimasukkan ke blocklist, dan digunakan untuk 
+meningkatkan sistem penyaringan bagi pengguna lain. 
+ 
+KOMPETITOR 3 
+Nama CekRekening.id 
+Jenis Kompetitor Indirect Competitors 
+Jenis Produk 
+Portal web resmi pemerintah untuk pemeriksaan, pelaporan, 
+verifikasi, dan pengumpulan database rekening bank, e-wallet, serta 
+crypto wallet. 
+Target Customer 
+Masyarakat Indonesia yang akan melakukan transaksi digital, korban 
+penipuan, pembeli dan penjual daring, serta pemilik rekening usaha 
+yang ingin melakukan verifikasi. 
+Kelebihan Kekurangan 
+- Merupakan layanan resmi Kementerian 
+Komunikasi dan Digital Republik 
+Indonesia. 
+- Memiliki konteks dan database yang 
+relevan dengan transaksi di Indonesia. 
+- Fokus pemeriksaan terbatas pada 
+identitas finansial seperti rekening, e-
+wallet, atau crypto wallet. 
+- Tidak menganalisis keseluruhan isi 
+pesan, pola manipulasi bahasa, 
+
+--- PAGE 7 ---
+- Memungkinkan masyarakat memeriksa 
+rekening, e -wallet, atau crypto wallet 
+sebelum bertransaksi. 
+- Menerapkan crowdsourcing melalui 
+laporan masyarakat. 
+- Menyediakan proses verifikasi terhadap 
+laporan dan mekanisme normalisasi bagi 
+pemilik rekening yang merasa dirugikan. 
+- Memiliki fitur whitelist untuk rekening 
+usaha yang telah melalui verifikasi 
+faktual. 
+screenshot percakapan, maupun 
+struktur URL. 
+- Pengguna harus sudah memiliki 
+nomor rekening atau identitas 
+pembayaran yang ingin diperiksa. 
+- Efektivitas pencarian terhadap 
+rekening mencurigakan bergantung 
+pada data yang telah masuk dan 
+diverifikasi. 
+- Tidak memberikan risk score terpadu 
+yang menggabungkan isi pesan, URL, 
+dan sinyal komunitas dalam satu 
+hasil. 
+Key Competitive Advantage & Unique Value 
+Keunggulan utama CekRekening.id adalah statusnya sebagai kanal resmi pemerintah 
+Indonesia dan ketersediaan database lokal mengenai rekening, e-wallet, dan crypto wallet 
+yang telah dilaporkan. Mekanisme verifikasi, whitelist, serta normalisasi memberikan 
+tingkat legitimasi dan kendali yang sulit dimiliki oleh platform independen. 
+ 
+LAB 1.3: LEAN CANVAS  
+
+--- PAGE 8 ---
+ 

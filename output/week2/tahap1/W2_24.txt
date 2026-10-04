@@ -1,0 +1,337 @@
+
+--- PAGE 1 ---
+Laboratorium Jaringan Komputer dan Aplikasi Terdistribusi 
+Senior Project (Jaringan Komputer, Komputasi Awan, dan AI) 
+Worksheet Week 2 (Kelompok) 
+ 
+Modul 2 – SDLC & GIT 
+LAB 2.3: GITHUB PAGE KELOMPOK  
+Lampiran pengerjaan Lab 2.2:  
+Screenshot file untuk konfigurasi Page:  
+ 
+Screenshot tampilan akhir Page:  
+ 
+  
+ 
+LAB 2 .4 : MERANCANG SDLC PENGEMBANGAN PRODUK  
+Metodologi SDLC 
+Metodologi yang digunakan: 
+Scrumban 
+ 
+
+
+--- PAGE 2 ---
+Alasan pemilihan metodologi: 
+Karena metodologi Scrumban menggabungkan pendekatan iteratif dan inkremental  melalui 
+sprint dari Scrum dengan fleksibilitas alur kerja yang tervisualisasi dari Kanban. Sehingga, 
+sesuai untuk mengelola dan mengembangkan produk proyek senior teknologi informasi yang 
+kompleks dalam tim kecil seperti tim kami. 
+ 
+ 
+ 
+Perancangan Tahap 1-3 SDLC 
+a. Tujuan dari produk 
+Secara umum, tujuannya adalah untuk meningkatkan partisipasi masyarakat khususnya 
+mahasiswa dalam pengelolaan sampah yang terukur dan berkelanjutan dengan detail 
+sebagai berikut :  
+1. Meningkatkan partisipasi pengguna dalam pemilahan dan pelaporan sampah melalui 
+sistem gamifikasi yang interaktif dan transparan 
+ 
+2. Menyediakan sistem pelaporan dan monitoring berbasis data secara real-time untuk 
+mendukung pengambilan keputusan yang lebih efektif. 
+ 
+3. Mengimplementasikan teknologi AI dan Komputasi Awan guna meningkatkan akurasi 
+validasi data serta memastikan sistem yang skalabel dan terintegrasi. 
+ 
+4. Mendukung upaya keberlanjutan lingkungan yang selaras dengan Sustainable 
+Development Goals (SDGs)  
+b. Pengguna potensial dari produk dan kebutuhan para pengguna tersebut  
+Pengguna potensial dari produk EcoPoint adalah mahasiswa di lingkungan kampus 
+sebagai pengguna utama, serta pengelola fasilitas kampus sebagai pengguna 
+administratif. Mahasiswa membutuhkan sistem yang dapat memotivasi dan 
+mempermudah mereka dalam melakukan pemilahan serta pelaporan sampah secara 
+praktis dan menarik. Sementara itu, pihak pengelola kampus membutuhkan sistem 
+monitoring berbasis data yang dapat membantu dalam pengambilan keputusan terkait 
+pengelolaan sampah secara lebih efektif dan terukur. 
+
+--- PAGE 3 ---
+c. Use case diagram 
+ 
+d. Functional requirements untuk use case yang telah dirancang 
+FR Deskripsi 
+Register Sistem memungkinkan mahasiswa untuk membuat akun baru 
+dengan memasukkan email dan password yang valid. 
+Login 
+Sistem memungkinkan mahasiswa untuk masuk ke dalam sistem 
+menggunakan kredensial yang telah terdaftar. 
+Melaporkan Sampah Sistem memungkinkan mahasiswa yang telah login untuk 
+mengunggah foto sampah dan mengirimkan laporan. 
+
+
+--- PAGE 4 ---
+Validasi Gambar 
+dengan AI 
+Sistem secara otomatis menganalisis foto yang diunggah untuk 
+mengklasifikasikan jenis sampah dengan menggunakan AI. 
+Menghitung & 
+Menambahkan Poin 
+Sistem menghitung poin berdasarkan hasil klasifikasi dan 
+menambahkan poin tersebut ke akun mahasiswa. 
+Melihat Poin Sistem memungkinkan mahasiswa untuk melihat total poin yang 
+dimiliki. 
+Melihat Leaderboard Sistem menampilkan peringkat mahasiswa berdasarkan total poin 
+tertinggi. 
+Mengelola 
+Dashboard 
+Sistem memungkinkan admin untuk melihat dan mengelola 
+daftar laporan sampah beserta detailnya. 
+e. Entity relationship diagram 
+ 
+f. Low-fidelity Wireframe 
+1. Dashboard 
+
+
+--- PAGE 5 ---
+ 
+2. Profile and Review 
+
+
+--- PAGE 6 ---
+ 
+3. Upload 
+ 
+
+
+--- PAGE 7 ---
+4. Redemption Shop 
+ 
+5. Leaderboard 
+
+
+--- PAGE 8 ---
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- PAGE 9 ---
+g. Gantt-Chart pengerjaan proyek dalam kurun waktu 1 semester 
+Kegiatan 
+Pertemuan 
+1 2 3 4 5 6 7 8 9 10 11 12 
+Brainstorming             
+UX Research & UI 
+Design 
+            
+Backend 
+Development 
+            
+AI Development              
+Frontend 
+Development  
+            
+Unit Test & 
+Integration Test 
+            
+Deployment             
+ 
+Lampiran pengerjaan Lab 2.4: 
+Screenshot tampilan akhir Page dengan konten baru: 
+ 
+
+
+--- PAGE 10 ---
+ 
+ 
+ 
+ 
+ 
+ 
+LAB 2. 5: PEMANFAATAN PROJECT MANAGEMENT TOOLS  
+Lampiran pengerjaan Lab 2.5: 
+ 
+Breakdown Proyek: 
+Nama Proyek: EcoPoint 
+Judul Subproyek Actionable Deliverable Keterangan 
+Riset Kebutuhan 
+Pengguna 
+Melakukan survei kepada 
+mahasiswa dan pengelola 
+fasilitas kampus 
+Dokumen hasil 
+wawancara dan dataset 
+hasil survei pengguna 
+Survei dilakukan untuk 
+mengetahui kebutuhan 
+dari sisi admin dan 
+mahasiswa sebagai 
+pengguna 
+Menentukan fitur utama 
+sistem 
+Daftar fitur utama 
+EcoPoint 
+Contoh fitur : laporan 
+sampah, poin, 
+leaderboard, dashboard 
+admin 
+
+
+--- PAGE 11 ---
+Perancangan Sistem 
+Mendesain Use Case 
+Diagram berdasarkan 
+kebutuhan pengguna 
+Use Case Diagram 
+Menunjukan interaksi 
+antara mahasiswa dan 
+admin dengan sistem 
+Mendesain Entity 
+Relationship Diagram 
+(ERD) 
+ERD sistem EcoPoint 
+ERD digunakan sebagai 
+acuan pembuatan 
+database 
+ Mendesain arsitektur 
+sistem (Frontend, 
+Backend, AI, Cloud) 
+Diagram arsitektur sistem 
+Menggambar alur 
+komunikasi antar 
+komponen sistem 
+Desain UI/UX 
+Membuat wireframe awal 
+aplikasi Low fidelity wireframe Halaman login, laporan 
+sampah, leaderboard 
+Mendesain mockup UI 
+pada Figma Desain UI aplikasi 
+UI harus sederhana, 
+responsif, dan mudah 
+digunakan 
+Menentukan design 
+system (color palette, 
+typhography, icon) 
+Style guide desain Memastikan konsistensi 
+tampilan aplikasi 
+Pengembangan Backend 
+Mendesain database 
+schema Database schema Menggunakan 
+PostgreSQL 
+Mengembangkan API 
+untuk autentikasi 
+pengguna 
+Endpoint API login & 
+register 
+Digunakan untuk proses 
+autentikasi mahasiswa 
+Mengembangkan API 
+laporan sampah 
+API upload laporan 
+sampah 
+API menerima foto dan 
+data laporan 
+Mengembangkan API 
+leaderboard dan poin API leaderboard 
+API menghitung dan 
+menampilkan peringkat 
+pengguna 
+Integrasi AI Wrapper 
+Menentukan layanan AI 
+vision yang akan 
+digunakan 
+Dokumentasi pemilihan 
+AI API 
+Contoh: OpenAI Vision / 
+Google Vision 
+Mengimplementasikan 
+wrapper untuk AI API Modul AI Wrapper 
+Modul untuk mengirim 
+gambar dan menerima 
+hasil klasifikasi 
+Menguji akurasi klasifikasi 
+sampah Laporan pengujian AI Menguji berbagai jenis 
+sampah 
+Menghubungkan hasil 
+klasifikasi dengan sistem 
+poin 
+Sistem perhitungan poin 
+otomatis 
+Poin diberikan 
+berdasarkan jenis sampah 
+Pengembangan Frontend 
+Membuat halaman 
+upload laporan sampah Halaman upload 
+Pengguna dapat 
+mengunggah foto 
+sampah 
+Membuat halaman point 
+pengguna Halaman poin Menampilkan total poin 
+Membuat halaman 
+leaderboard Halaman leaderboard Menampilkan ranking 
+pengguna 
+
+--- PAGE 12 ---
+Membuat dashboard 
+admin Dashboard admin Admin dapat melihat 
+laporan sampah 
+Pengujian Sistem 
+Melakukan unit testing Laporan unit testing Menguji setiap modul 
+Melakukan integration 
+testing 
+Laporan integration 
+testing 
+Menguji komunikasi 
+frontend, backend, dan AI 
+Melakukan user testing Feedback pengguna Pengujian dengan 
+mahasiswa 
+Deployment  
+Deploy aplikasi ke cloud Aplikasi online Menggunakan VPS / 
+cloud hosting 
+Menyusun dokumentasi 
+sistem Dokumentasi teknis Berisi arsitektur dan API 
+Menyusun panduan 
+pengguna User manual Panduan penggunaan 
+aplikasi 
+ 
+ 
+ 
+Screenshot Github Project pasca pembuatan issue: 
+ 
+Screenshot Github Project pasca pengembangan satu minggu: 
+
+
+--- PAGE 13 ---
+ 
+ 
+
+
+--- PAGE 14 ---
+Screenshot file main.yml untuk Github Action Kelompok: 
+ 
+ 
+Penjelasan Github Action: 
+
+
+--- PAGE 15 ---
+ 
+Berdasarkan file main.yml di atas, workflow "Deploy Jekyll Site to GitHub Pages" sebagai 
+GitHub Action Workflow ini berjalan secara otomatis setiap kali ada push ke branch main, lalu 
+menjalankan dua job secara sekuensial, yaitu job pertama (build) yang melakukan checkout 
+kode, mengompilasi sumber Jekyll dari direktori ./docs menjadi file statis di ./docs/_site, lalu 
+menguploadnya sebagai artifact dan job kedua (deploy) baru berjalan setelah build sukses, 
+mengambil artifact tersebut dan men -deploy-nya ke Git Hub Pages. Untuk keamanan, token 
+hanya diberi izin minimum yang diperlukan, dan pengaturan concurrency memastikan tidak 
+ada dua deployment yang berjalan bersamaan. 

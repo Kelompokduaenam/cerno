@@ -1,0 +1,117 @@
+Laboratorium Jaringan Komputer dan Aplikasi Terdistribusi
+Senior Project (Jaringan Komputer, Komputasi Awan, dan AI)
+Worksheet Week 2 (Kelompok)
+
+Modul 2 – SDLC & GIT
+LAB 2.3: GITHUB PAGE KELOMPOK 
+Lampiran pengerjaan Lab 2.2: 
+
+Lab 2.4: MERANCANG SDLC PENGEMBANGAN PRODUK
+Metodologi SDLC
+Metodologi yang digunakan:
+
+Alasan pemilihan metodologi:
+
+Perancangan Tahap 1-3 SDLC
+Tujuan dari produk
+Pengguna potensial dari produk dan kebutuhan para pengguna tersebut 
+Use case diagram
+Functional requirements untuk use case yang telah dirancang
+Entity relationship diagram
+Low-fidelity Wireframe
+Gantt-Chart pengerjaan proyek dalam kurun waktu 1 semester
+
+Lampiran pengerjaan Lab 2.4:
+
+
+
+
+
+Lab 2.5: Pemanfaatan Project Management Tools
+Lampiran pengerjaan Lab 2.5:
+
+Breakdown Proyek:
+Nama Proyek: <isi nama proyek>
+
+Contoh:
+Nama Proyek: Kerenify
+Keterangan:
+Actionable: Langkah atau hal yang harus dilakukan untuk menyelesaikan subproyek
+Deliverable: Keluaran atau output dari actionable terkait
+Hapus Contoh dan Keterangan setelah selesai dipahami
+
+
+
+
+TABLE 0
+Screenshot file untuk konfigurasi Page: 
+
+  
+Screenshot tampilan akhir Page: 
+
+ 
+TABLE 1
+
+TABLE 2
+
+
+
+TABLE 3
+
+TABLE 4
+
+TABLE 5
+
+TABLE 6
+FR | Deskripsi
+FR 1 | 
+FR 2 | 
+dst | 
+TABLE 7
+
+TABLE 8
+
+TABLE 9
+Kegiatan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan | Pertemuan
+Kegiatan | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12
+Brainstorming |  |  |  |  |  |  |  |  |  |  |  | 
+Developing |  |  |  |  |  |  |  |  |  |  |  | 
+dst |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+TABLE 10
+Screenshot tampilan akhir Page dengan konten baru:
+
+TABLE 11
+Judul Subproyek | Actionable | Deliverable | Keterangan
+Subproyek A | Actionable AA | Deliverable AA | <isi sesuai kebutuhan>
+Subproyek A | Actionable AB | Deliverable AB | <isi sesuai kebutuhan>
+Subproyek A | Actionable AC | Deliverable AC | <isi sesuai kebutuhan>
+Subproyek B | Actionable BA | Deliverable BA | <isi sesuai kebutuhan>
+TABLE 12
+Judul Subproyek | Actionable | Deliverable | Keterangan
+Riset Kebutuhan Pengguna | Melakukan wawancara | Dokumen hasil wawancara | Wawancara dilakukan kepada mahasiswa. Target responden wawancara 25 orang
+Riset Kebutuhan Pengguna | Mengkonversi hasil wawancara menjadi insight | Insight dari hasil wawancara | -
+Riset Kebutuhan Pengguna | Menentukan fitur utama dari hasil wawancara | Fitur utama aplikasi | -
+Mendesain Aplikasi | Menentukan color pallete | Color pallete untuk desain | Color pallete harus mempertimbangkan aksesbilitas dan menyediakan dua tema, dark mode dan light mode
+Mendesain Aplikasi | Membuat desain Lo-Fi | Lo-Fi pada Figma | Desain Lo-Fi yang perlu dibuat:
+- Landing Page
+- About Us
+- 404 Page
+dst | dst | dst | dst
+TABLE 13
+Screenshot Github Project pasca pembuatan issue:
+TABLE 14
+Screenshot Github Project pasca pengembangan satu minggu:
+TABLE 15
+Screenshot file main.yml untuk Github Action Kelompok:
+
+Penjelasan Github Action:
